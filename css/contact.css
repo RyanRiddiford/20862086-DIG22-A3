@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.contact-main-image {
+    width: 50vw;
+    height: 40vh;
+    margin: 0 auto;
+    /* width:20vw;
+    height:15vh; */
+
+    flex: 1;
+}
+
+.contact-info {
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    flex: 1;
+}
+
+th, td {
+    text-align: left;
+    padding-top: 1vh;
+}
+
+#main-image {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

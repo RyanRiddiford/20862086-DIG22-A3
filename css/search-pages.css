@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+#search-tool-form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #study-search-button {
+    width:5vw;
+    height:5vh;
+} */
+
+.search-results {
+    border-top: 2px solid #E2E2E2;
+    border-bottom: 2px solid #E2E2E2;
+}
+
+.filter, #search {
+    height: 5vh;
+    color:#2C4274;
+    box-sizing: border-box;
+    border-width: 2px;
+
+}
+
+.filter {
+    margin-right:1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#search {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#search-button {
+    width: 8vw;
+    height: 5vh;
+    background-image: url("../images/search-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-link {
+    margin-right: 1%;
+    color: #0000EE;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.search-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: #e2e2e2;
+    width: 60vw;
+    height:8vh;
+    list-style-type: none;
+    margin-bottom:1%;
+    border-radius: 5px;
+    
+}
+
+.item-image {
+    /* width:1vw;
+    height:6vh; */
+    width: 55px;
+    height: 70px;
+    margin: 1%;
+    border-radius: 5px;
+
+}
+
+.item-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-button {
+    background-color: #DF7C8E;
+    border-radius: 5px;
+    margin-left: 1%;
+
+    width: 20vw;
+    height: 70px;
+    margin-top:1%;
+    margin-right:1%;
+}

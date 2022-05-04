@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* https://gridbyexample.com/examples/ */
+
+.top-box, nav {
+    margin-top: 0;
+}
+
+/* .content-boxes-container {
+      display:grid;
+      grid-template-columns: 100px 100px 100px;
+      -ms-grid-column-span: 3;
+      grid-gap: 10px;
+      align-items: center;
+      justify-content: center;
+  } */
+
+.content-boxes-container, .hero-slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-box {
+    /* background-color: rgb(78, 143, 176); */
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* padding: 5%; */
+    /* font-size: 150%; */
+    margin-left: 5vw;
+    margin-right: 5vw;
+    /* filter:drop-shadow(1.5vw 1vh 0.3px  #e2e2e2); */
+    box-shadow: 1.5vw 1vh 5px #414141;
+}
+
+.box-image {
+    width: 20vw;
+    height: 20vh;
+}
+
+#hero-image {
+    width: 75vw;
+    height: 50vh;
+}
+
+.box-bottom {
+    background-color: #e2e2e2;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.hero-slider-arrow {
+    height: 10vh;
+    width: 7vw;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.content-group {
+    display: flex;
+    margin: 5%;
+}
+
+.image-first {
+    flex-direction: row;
+}
+
+.image-last {
+    flex-direction: row-reverse;
+}
+
+.about-image {
+    width: 15vw;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+.left-image {
+margin-right:2%;
+
+}
+
+.right-image {
+margin-left:2%;
+}
+
+
+#about-document {
+    /* background-color: #e2e2e2; */
+    border: 1px solid #000000;
+}

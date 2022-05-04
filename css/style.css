@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/*
+PALETTE
+#000000
+#FFFFFF
+#E2E2E2
+#0000EE
+
+#2C4274
+#DF7C8E
+
+#A5BD8D
+
+#635DFF
+
+*/
+
+@font-face {
+    font-family: Eina01-Regular;
+    src: url('../fonts/Eina01-Regular.ttf')
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+h1, nav {
+    font-family: Eina01-Regular;
+}
+
+.main-text {
+    font-family: eina;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* flex-flow: column wrap; */
+    /* grid-gap: 10px; */
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+/*
+    body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    */
+
+/* nav {
+    width:100%;border:5px,solid,rgb(0, 0, 0);
+
+} */
+
+.navbar-item {
+    float: left;
+    list-style-type: none;
+    /* padding-top: 3vh; */
+}
+
+.navbar-text-item {
+    margin-top: 5vh;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+/* .navbar-container {
+    background-color: #e2e2e2;
+     border-bottom:5px solid #4c4848;
+     width: 90%;
+     top:0;
+} */
+
+nav, ul, li, a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8vw;
+    background-color: #e2e2e2;
+    border-bottom: 5px solid #4c4848;
+    width: 100%;
+    top: 0;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+header {
+    /* background-color: #7962df; */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e2e2e2;
+    position: relative;
+    bottom: 0;
+    width: 90%;
+    border-top: 1px solid #4c4848;
+}
+
+.footer-item {
+    /* display:grid;
+    grid-auto-columns: min-content; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    top: 2vh;
+}
+
+#footer-logo, #navbar-logo {
+    height: 12vh;
+    width: 8vw;
+}
+
+.footer-item-header {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer-item-header, .footer-item-link, h4, h5 {
+    margin: 0.5vh;
+}
+
+/* img {
+    border-radius: 5px;
+  } */
+
+.box {
+    /* background-color: #444; */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 150%;
+    /* width: 100%; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
